@@ -23,11 +23,11 @@ Java 21, Gradle, PostgreSQL
 
 2.Setup
 * Clone the repo:
-      git clone https://github.com/Sauptik2000/learningNavigator.git
-      cd learningNavigator
+  i)git clone https://github.com/Sauptik2000/learningNavigator.git
+  ii)cd learningNavigator
 
 * Configure PostgreSQL:
-      Update application.properties with your DB credentials.
+  i)Update application.properties with your DB credentials.
 
 * Build and Run:
     ./gradlew bootRun
