@@ -1,0 +1,44 @@
+2024-08-27T16:34:29.513+05:30  INFO 5624 --- [learningNavigator] [main] c.c.l.LearningNavigatorApplication       : Starting LearningNavigatorApplication using Java 21.0.4 with PID 5624 (C:\Users\Sauptik\Desktop\learningNavigator\learningNavigator\build\classes\java\main started by Sauptik in C:\Users\Sauptik\Desktop\learningNavigator\learningNavigator)
+2024-08-27T16:34:29.529+05:30  INFO 5624 --- [learningNavigator] [main] c.c.l.LearningNavigatorApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-27T16:34:30.290+05:30  INFO 5624 --- [learningNavigator] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-27T16:34:30.384+05:30  INFO 5624 --- [learningNavigator] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 3 JPA repository interfaces.
+2024-08-27T16:34:31.154+05:30  INFO 5624 --- [learningNavigator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-27T16:34:31.169+05:30  INFO 5624 --- [learningNavigator] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-27T16:34:31.170+05:30  INFO 5624 --- [learningNavigator] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-27T16:34:31.239+05:30  INFO 5624 --- [learningNavigator] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-27T16:34:31.239+05:30  INFO 5624 --- [learningNavigator] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1654 ms
+2024-08-27T16:34:31.446+05:30  INFO 5624 --- [learningNavigator] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-27T16:34:31.548+05:30  INFO 5624 --- [learningNavigator] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-27T16:34:31.599+05:30  INFO 5624 --- [learningNavigator] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-27T16:34:31.997+05:30  INFO 5624 --- [learningNavigator] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-27T16:34:32.030+05:30  INFO 5624 --- [learningNavigator] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-27T16:34:32.271+05:30  INFO 5624 --- [learningNavigator] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2b9aeedb
+2024-08-27T16:34:32.274+05:30  INFO 5624 --- [learningNavigator] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-27T16:34:32.348+05:30  WARN 5624 --- [learningNavigator] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-27T16:34:33.337+05:30  INFO 5624 --- [learningNavigator] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-27T16:34:33.460+05:30  INFO 5624 --- [learningNavigator] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-27T16:34:33.819+05:30  WARN 5624 --- [learningNavigator] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-27T16:34:34.249+05:30  INFO 5624 --- [learningNavigator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-27T16:34:34.260+05:30  INFO 5624 --- [learningNavigator] [main] c.c.l.LearningNavigatorApplication       : Started LearningNavigatorApplication in 5.221 seconds (process running for 5.636)
+2024-08-27T16:39:00.571+05:30  INFO 7836 --- [learningNavigator] [main] c.c.l.LearningNavigatorApplication       : Starting LearningNavigatorApplication using Java 21.0.4 with PID 7836 (C:\Users\Sauptik\Desktop\learningNavigator\learningNavigator\build\classes\java\main started by Sauptik in C:\Users\Sauptik\Desktop\learningNavigator\learningNavigator)
+2024-08-27T16:39:00.577+05:30  INFO 7836 --- [learningNavigator] [main] c.c.l.LearningNavigatorApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-27T16:39:01.818+05:30  INFO 7836 --- [learningNavigator] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-27T16:39:01.946+05:30  INFO 7836 --- [learningNavigator] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 3 JPA repository interfaces.
+2024-08-27T16:39:02.711+05:30  INFO 7836 --- [learningNavigator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-27T16:39:02.726+05:30  INFO 7836 --- [learningNavigator] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-27T16:39:02.727+05:30  INFO 7836 --- [learningNavigator] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-27T16:39:02.798+05:30  INFO 7836 --- [learningNavigator] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-27T16:39:02.799+05:30  INFO 7836 --- [learningNavigator] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2133 ms
+2024-08-27T16:39:03.047+05:30  INFO 7836 --- [learningNavigator] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-27T16:39:03.132+05:30  INFO 7836 --- [learningNavigator] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-27T16:39:03.181+05:30  INFO 7836 --- [learningNavigator] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-27T16:39:03.813+05:30  INFO 7836 --- [learningNavigator] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-27T16:39:03.895+05:30  INFO 7836 --- [learningNavigator] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-27T16:39:04.218+05:30  INFO 7836 --- [learningNavigator] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@67e77f52
+2024-08-27T16:39:04.220+05:30  INFO 7836 --- [learningNavigator] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-27T16:39:04.369+05:30  WARN 7836 --- [learningNavigator] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-27T16:39:05.827+05:30  INFO 7836 --- [learningNavigator] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-27T16:39:05.990+05:30  INFO 7836 --- [learningNavigator] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-27T16:39:06.495+05:30  WARN 7836 --- [learningNavigator] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-27T16:39:07.058+05:30  INFO 7836 --- [learningNavigator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-27T16:39:07.070+05:30  INFO 7836 --- [learningNavigator] [main] c.c.l.LearningNavigatorApplication       : Started LearningNavigatorApplication in 7.207 seconds (process running for 7.809)
