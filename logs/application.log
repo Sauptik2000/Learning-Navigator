@@ -42,3 +42,22 @@
 2024-08-27T16:39:06.495+05:30  WARN 7836 --- [learningNavigator] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2024-08-27T16:39:07.058+05:30  INFO 7836 --- [learningNavigator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2024-08-27T16:39:07.070+05:30  INFO 7836 --- [learningNavigator] [main] c.c.l.LearningNavigatorApplication       : Started LearningNavigatorApplication in 7.207 seconds (process running for 7.809)
+2024-08-27T17:27:11.398+05:30  INFO 20868 --- [learningNavigator] [main] c.c.l.LearningNavigatorApplicationTests  : Starting LearningNavigatorApplicationTests using Java 21.0.4 with PID 20868 (started by Sauptik in C:\Users\Sauptik\Desktop\learningNavigator\learningNavigator)
+2024-08-27T17:27:11.405+05:30  INFO 20868 --- [learningNavigator] [main] c.c.l.LearningNavigatorApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2024-08-27T17:27:12.861+05:30  INFO 20868 --- [learningNavigator] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-27T17:27:12.946+05:30  INFO 20868 --- [learningNavigator] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 3 JPA repository interfaces.
+2024-08-27T17:27:13.821+05:30  INFO 20868 --- [learningNavigator] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-27T17:27:13.946+05:30  INFO 20868 --- [learningNavigator] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-27T17:27:14.020+05:30  INFO 20868 --- [learningNavigator] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-27T17:27:14.314+05:30  INFO 20868 --- [learningNavigator] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-27T17:27:14.360+05:30  INFO 20868 --- [learningNavigator] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-27T17:27:14.743+05:30  INFO 20868 --- [learningNavigator] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@57fec63f
+2024-08-27T17:27:14.746+05:30  INFO 20868 --- [learningNavigator] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-27T17:27:14.819+05:30  WARN 20868 --- [learningNavigator] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-27T17:27:16.244+05:30  INFO 20868 --- [learningNavigator] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-27T17:27:16.468+05:30  INFO 20868 --- [learningNavigator] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-27T17:27:17.272+05:30  WARN 20868 --- [learningNavigator] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-27T17:27:17.970+05:30  INFO 20868 --- [learningNavigator] [main] c.c.l.LearningNavigatorApplicationTests  : Started LearningNavigatorApplicationTests in 7.152 seconds (process running for 13.815)
+2024-08-27T17:27:18.028+05:30  INFO 20868 --- [learningNavigator] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-27T17:27:18.034+05:30  INFO 20868 --- [learningNavigator] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-27T17:27:18.048+05:30  INFO 20868 --- [learningNavigator] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
