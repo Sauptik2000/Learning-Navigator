@@ -55,7 +55,7 @@ public class ExamControllerTest {
 
     @Test
     void testCreateExam() throws Exception {
-        Subject subject = new Subject(); // Assuming Subject class exists and has a default constructor
+        Subject subject = new Subject();
         Exam exam = new Exam(1L, subject, null);
         when(examService.createExam(any(Exam.class))).thenReturn(exam);
 
@@ -70,7 +70,7 @@ public class ExamControllerTest {
 
     @Test
     void testGetExamById() throws Exception {
-        Subject subject = new Subject(); // Assuming Subject class exists and has a default constructor
+        Subject subject = new Subject(); 
         Exam exam = new Exam(1L, subject, null);
         when(examService.getExamById(1L)).thenReturn(exam);
 
@@ -93,7 +93,7 @@ public class ExamControllerTest {
 
     @Test
     void testGetAllExams() throws Exception {
-        Subject subject = new Subject(); // Assuming Subject class exists and has a default constructor
+        Subject subject = new Subject(); 
         List<Exam> exams = Arrays.asList(
                 new Exam(1L, subject, null),
                 new Exam(2L, subject, null)
@@ -109,7 +109,7 @@ public class ExamControllerTest {
 
     @Test
     void testUpdateExam() throws Exception {
-        Subject subject = new Subject(); // Assuming Subject class exists and has a default constructor
+        Subject subject = new Subject(); 
         Exam updatedExam = new Exam(1L, subject, null);
         when(examService.updateExam(anyLong(), any(Exam.class))).thenReturn(updatedExam);
 
