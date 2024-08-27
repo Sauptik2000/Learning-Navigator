@@ -23,31 +23,31 @@ Java 21, Gradle, PostgreSQL
 
 2.Setup
 * Clone the repo:
-  i)git clone https://github.com/Sauptik2000/learningNavigator.git
-  ii)cd learningNavigator
+  1. git clone https://github.com/Sauptik2000/learningNavigator.git
+  2. cd learningNavigator
 
 * Configure PostgreSQL:
-  i)Update application.properties with your DB credentials.
+  1. Update application.properties with your DB credentials.
 
 * Build and Run:
-    ./gradlew bootRun
+  1. ./gradlew bootRun
 
 API Endpoints:
 1. Students
-    POST /students
-    GET /students/{id}
-    PUT /students/{id}
-    DELETE /students/{id}
+    1. POST /students
+    2. GET /students/{id}
+    3. PUT /students/{id}
+    4. DELETE /students/{id}
 2. Subjects
-    POST /subjects
-    GET /subjects/{id}
-    PUT /subjects/{id}
-    DELETE /subjects/{id}
+    1. POST /subjects
+    2. GET /subjects/{id}
+    3. PUT /subjects/{id}
+    4. DELETE /subjects/{id}
 3. Exams
-    POST /exams
-    GET /exams/{id}
-    PUT /exams/{id}
-    DELETE /exams/{id}
-    POST /exams/{examId}/students/{studentId}
+    1. POST /exams
+    2. GET /exams/{id}
+    3. PUT /exams/{id}
+    4. DELETE /exams/{id}
+    5. POST /exams/{examId}/students/{studentId}
 4. Easter Egg Feature
-    Get a Random Fact about a Number:- GET /hidden-feature/{number}
+    1. Get a Random Fact about a Number:- GET /hidden-feature/{number}
